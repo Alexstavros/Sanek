@@ -7,15 +7,49 @@
 
 
 <h1>Формы</h1>
-<form action="/search/">
-	<input type="color">
+
+
+ <form action="/search/">
+
+<p>
+  <label for="userna">Введите свой Email</label>
+  <input type="text" placeholder="Write your Email" id="userna" name="Email_adress">   
+	</p>
 	<p>
-		<label for="username">Введите пароль</label>
-	<input type="password" placeholder="password" id="username">
-    </p>
-	<input type="button">
-	<input type="date">
-	<input type="range">
-</form>
+		
+	    <label for="password">Введите свой пароль</label>
+	    <input type="password" placeholder="Write your password" id="password" name="password">
+	</p>
+  
+ <p>
+ 	<label for="color">Выберите цвет</label>
+    <input type="color" id="color" name="color">
+
+ </p>
+ <p>
+ 	<label for="button">Нажмите на кнопку</label>
+    <input type="button" id="button" name="button">
+ </p>
+ <p>
+ 	<label for="date">Дата</label>
+    <input type="date" id="date" name="date">
+ </p>
+ <p>
+ 	
+    <label for="range">Звук</label>
+    <input type="range" id="range" name="range">
+ </p>
+    <button type="submit">Отправить</button>
+
+
+   </form>
+
+   <form action="https://google.com/">
+	
+       <input type="text" name="text" />
+       <button>Запрос в Гугл</button>
+       
+   </form>
+	
 </body>
 </html>
