@@ -29,6 +29,7 @@
  <p>
  	<label for="button">Нажмите на кнопку</label>
     <input type="button" id="button" name="button">
+
  </p>
  <p>
  	<label for="date">Дата</label>
@@ -41,15 +42,65 @@
  </p>
     <button type="submit">Отправить</button>
 
-
    </form>
 
-   <form action="https://google.com/">
-	
-       <input type="text" name="text" />
+   <form action="https://www.google.com//search">
+       <input type="text" name="q" />
        <button>Запрос в Гугл</button>
-       
+        
    </form>
 	
+<form action="https://www.youtube.com/results?">
+       <input type="text" name="search_query" />
+       <button>Запрос в Youtube</button>
+</form>
+<h2>CheckBox</h2>
+
+<form action="/test">
+	
+	<input type="checkbox" name="agreement" id="agreement">
+	<label for="agreement">Я соглашаюсь cо всем общим</label>
+	<button>Отправить</button>
+</form>
+
+
+
+
+<form action="/test">
+	<div>
+	<label for="paket11">пакет#1</label>
+		<input type="radio" name="paket" id="paket11" value="paket11">
+	</div>
+	<div>
+		<label for="paket12">пакет#2</label>
+		<input type="radio" name="paket" id="paket12" value="paket12">
+	</div>
+	<div>
+		<label for="paket13">пакет#3</label>
+		<input type="radio" name="paket" id="paket13" value="paket13">
+	</div>
+	<div>
+		<label for="paket14">пакет#4</label>
+		<input type="radio" name="paket" id="paket14" value="paket14">
+	</div>
+<button>Отправить</button>
+</form>
+
+<div>
+<label for="vacation_month">Какой год лучше?</label>
+<select name="vacation" id="vacation_month">
+	<option value="200">2016 ето год</option>
+	<option value="300">2017 ето год</option>
+	<option value="400">2018 ето год</option>
+	<option value="500">2019 ето год</option>
+</div>
+<div>
+	<label for="comments">Пожелания</label>
+	<textarea name="user_comments" id="comments" cols="30" rows="10" placeholder="Вашы Пожелания"></textarea>
+</div>
+</select>
+
+<button>Отправить</button>
+
 </body>
 </html>
